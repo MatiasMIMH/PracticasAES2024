@@ -1,8 +1,5 @@
 body {
     background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-header {
-    
+    background-size: 100% auto;
+    background-position: auto;
 }
