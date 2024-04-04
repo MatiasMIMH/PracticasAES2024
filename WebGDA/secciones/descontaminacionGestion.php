@@ -6,7 +6,7 @@
         <title>GDA Demoliciones Técnicas y Gestión de Amianto</title>
     </head>
 
-    <body background="../imagenes/8.jpg">
+    <body background="../imagenes/seccion5.jpg">
         <header>
             
         </header>
