@@ -1,40 +1,96 @@
-.titulo{
-    text-align: left;
-    color: darkslategrey; 
-    background-color: lightgray;
-    text-align: center;
-    position: relative;
-    width: 20vw;
-    left: 80vw;
-    top: 10%;
-    font-family: 'Gill Sans', sans-serif;
-}
-.fondoPantalla{
-    position: absolute;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-}
-.fondoRojo{
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100vw;
-    top:25%;
-    bottom:0;
-    background-color: rgba(191, 0, 0, 0.633);
-    clip-path: polygon(0 42%, 20% 65%, 48% 30%, 100% 30%, 100% 100%, 75% 100%, 24% 100%, 0 100%);
+@font-face {
+    font-family: "Tabac Sans";
+    src: url("font/TabacSansSemiBold.ttf");
 }
 
 html,body{
     margin:0;
     padding:0;
 }
-.logo{
-    position: relative;
-    height: 18%;
-    width: 13%;
-    top: 28vw;
-    margin-left: 200px;
 
+h1 {
+    color: rgb(60, 60, 60);
+    font-family:"Tabac Sans";
+}
+
+p,li {
+    font-size: 80%;
+    color: white;
+    font-family:"Tabac Sans";
+}
+
+.imgseccion{
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.pie{
+    position:absolute;
+    width: 100vw;
+    top:25%;
+    bottom:0;
+    background-color: rgba(255, 0, 0,0.8);
+    border-color: white;
+
+    clip-path: polygon(22% 74%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 29%);
+}
+
+.pieborde {
+    position:absolute;
+    width: 100vw;
+    top:0px;
+    bottom:0;
+    background-color: white;
+    border: 2px, solid, white;
+    clip-path: polygon(22% 72%, 54% 0, 100% 0, 100% 1%, 55% 1%, 22% 75%, 0 30%, 0 29%);
+}
+
+.divimgrera {
+    padding: 0;
+    height: 9%;
+    width: 12%;
+    bottom: 3%;
+    left: 16%;
+    bottom: 60px;
+    position: fixed;
+}
+ 
+.imgrera {
+    margin: 0px;
+    height: 90px;
+    width: 170px;
+}
+
+.titulo{
+    text-align: center;
+    color: darkslategray;
+    background-color: lightgray;
+    position: relative;
+    width: 20vw;
+    left: 80vw;
+    top: 10%;
+    font-family: "Tabac Sans";
+}
+
+.divlogo {
+    text-align: right;
+    right: 5%;
+    position: fixed;
+}
+
+li {
+    text-align: right;
+    padding-bottom: 3%;
+}
+
+.lista {
+    text-align: right;
+    font-size: 150%;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
 }
