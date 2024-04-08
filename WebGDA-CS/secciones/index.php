@@ -7,7 +7,7 @@
     $query= "SELECT * FROM secciones WHERE id= 1";
     $result= mysqli_query($conexion, $query);
 
-    $queryDireccionEmpresa= "SELECT * FROM direccion_empresa WHERE fk_id_empresa= 1";
+    $queryDireccionEmpresa= "SELECT * FROM datos_empresa WHERE fk_id_empresa= 1";
     $resultDatosEmpresa = mysqli_query($conexion, $queryDireccionEmpresa);
 
     $row= mysqli_fetch_array($result);
@@ -44,13 +44,16 @@
                         <p>N.I.F.: B27861699</p>
                         <p style="color: gray;">Oficina Central:</p>
                         <p><?php 
-                                echo $row["calle\n"];
-                                echo $row["numero\n"];
-                                echo $row["piso\n"];
-                                echo $row["cp\n"];
-                                echo $row["ciudad\n"];
-                            ?>
-                        </p>
+                                echo $row["calle"];
+                                echo $row[" "] ;
+                                echo $row["numero"];
+                                echo $row[" "] ;
+                                echo $row["piso"];
+                                echo $row[" "] ;
+                                echo $row["cp"];
+                                echo $row[" "] ;
+                                echo $row["ciudad"];
+                            ?></p>
                         <p>Tel.: 986 289 776 · 629859946</p>
                         <p style="color: gray;">Delegación Centro:</p>
                         <p>Camino del Barco Viejo, 40</p>
