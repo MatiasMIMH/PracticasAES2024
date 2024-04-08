@@ -1,5 +1,9 @@
 <?php
+<<<<<<< Updated upstream
     include("conexionbdd.php");
+=======
+    include("conexion.php");
+>>>>>>> Stashed changes
     $conexion= conexion();
 
     $id= ($_REQUEST["id"] == "")?1:$_REQUEST["id"];
@@ -24,12 +28,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="../css/estilos.css">
+=======
+    <link rel="stylesheet" href="../css/estilo.css">
+>>>>>>> Stashed changes
     <title>Contactos</title>
 </head>
 <body class="contactos">
 
+<<<<<<< Updated upstream
     <div class="fondopantalla"><img src="../imagenes/<?php echo $row["fondo"]?>"></div>
+=======
+    <div class="fondopantalla" style="background-image: url('../imagenes/<?php echo $row["fondo"]?>')"></div>
+>>>>>>> Stashed changes
 
     <div class="imglogo"><img src="../imagenes/<?php echo $row["logo"]?>"></div>
 
