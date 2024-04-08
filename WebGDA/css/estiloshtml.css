@@ -1,0 +1,112 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+p,li {
+    font-size: 0.8em;
+    color: white;
+    font-family: serif;
+
+}
+
+.imgseccion{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.pie{
+    position:absolute;
+    width: 100vw;
+    top:25%;
+    bottom:0;
+    background-color: rgba(255, 0, 0,0.8);
+    border-color: white;
+    clip-path: polygon(22% 74%, 55% 0, 100% 0, 100% 100%, 0 100%, 0 29%);
+}
+
+.pieborde {
+    position:absolute;
+    width: 100vw;
+    top:0px;
+    bottom:0;
+    background-color: white;
+    border: 2px, solid, white;
+    clip-path: polygon(22% 72%, 54% 0, 100% 0, 100% 1%, 55% 1%, 22% 75%, 0 30%, 0 29%);
+}
+
+.divimgrera {
+    padding: 0;
+    height: 9%;
+    width: 12%;
+    bottom: 3%;
+    left: 16%;
+    bottom: 60px;
+    position: fixed;
+}
+ 
+.imgrera {
+    margin: 0px;
+    height: 90px;
+    width: 170px;
+}
+
+.titulo {
+
+  
+    color: darkslategray;
+    background-color: rgba(233, 230, 230, 0.523);
+    position: absolute;
+    width: auto;
+    top: 5%;
+    right: 0;
+    padding-right: 50px;
+    padding-left: 90px;
+
+  }
+
+.divlogo {
+    text-align: right;
+    right: 3%;
+    position: fixed;
+    top: 27%;
+    width: 40%;
+
+}
+
+li {
+    text-align: bottom;
+    padding-bottom: 3%;
+    vertical-align: bottom;  
+}
+
+.lista {
+    color: white;
+    font-family: serif;
+    font-size: 190%;
+    position: absolute;
+    right: 5%;
+    top: 200px;
+    height: 460px;
+    width: 800px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+}
+p{
+    font-size: 1em;
+}
+h1{
+    margin: auto;
+}
+.logogda{
+    width:500px;
+    height:120px;
+}
