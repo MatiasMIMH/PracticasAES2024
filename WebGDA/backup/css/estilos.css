@@ -1,0 +1,11 @@
+h1{
+    text-align: left;
+    color: grey; 
+    background-color: lightgray;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: auto;
+}
+
