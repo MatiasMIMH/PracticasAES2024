@@ -30,7 +30,7 @@
 <body class="contactos">
 
     <div class="fondopantalla" style="background-image: url('../imagenes/<?php echo $row["fondo"]?>')"></div>
-
+    <?php include("header.php");?>
     <div class="imglogo"><img src="../imagenes/<?php echo $row["logo"]?>"></div>
 
     <div class="textorera">
