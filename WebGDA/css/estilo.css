@@ -122,15 +122,14 @@ h1.seccion {
 }
 
 .titulo{
-    text-align: left;
     color: darkslategray;
-    background-color: lightgray;
+    background-color: rgba(233, 230, 230, 0.523);
     position: absolute;
     width:auto;
     top: 12%;
     right:0;
-    padding-right: 20px;
-    padding-left: 125px;
+    padding-right: 50px;
+    padding-left: 90px;
 }
 
 .div_logo {
@@ -153,15 +152,22 @@ h1.seccion {
 }
 
 .lista {
-    font-size: 80%;
+    font-size: 1.8em;
     color: white;
-    font-family:"Tabac Sans";
+    font-family: "Tabac Sans";
     text-align: right;
-    font-size: 150%;
     position: absolute;
     right: 5%;
+    width: 800px;
     top: 150px;
-    height: 320px;
+    height: 460px;
+    display: flex;
+    justify-items: flex-end;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 /*      INDEX      */

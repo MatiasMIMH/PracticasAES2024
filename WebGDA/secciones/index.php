@@ -4,20 +4,27 @@
 
     $id= ($_REQUEST["id"] == "")?1:$_REQUEST["id"];
 
+    //tabla secciones
     $query= "SELECT * FROM secciones WHERE id= 1";
     $result= mysqli_query($conexion, $query);
 
-    $queryDireccionEmpresa= "SELECT * FROM direccion_empresa WHERE fk_id_empresa= 1";
-    $resultDatosEmpresa = mysqli_query($conexion, $queryDireccionEmpresa);
+    //tabla direccion empresa
+    $queryDireccionEmpresaPrincipal= "SELECT * FROM datos_empresa INNER JOIN direccion_empresa ON id_empresa = fk_id_empresa WHERE fk_id_empresa = 1 and principal = 0";
+    $resultDireccionEmpresaPrincipal = mysqli_query($conexion, $queryDireccionEmpresaPrincipal);
+
+    $queryDireccionEmpresaDelegacion= "SELECT * FROM datos_empresa INNER JOIN direccion_empresa ON id_empresa = fk_id_empresa WHERE fk_id_empresa = 1 and principal = 1";
+    $resultDireccionEmpresaDelegacion = mysqli_query($conexion, $queryDireccionEmpresaDelegacion);
+
+    //tabla datos empresa
+    $queryDatosEmpresa= "SELECT * FROM datos_empresa WHERE id_empresa= 1";
+    $resultDatosEmpresa= mysqli_query($conexion, $queryDatosEmpresa);
 
     $row= mysqli_fetch_array($result);
-    $rowDireccionEmpresa= mysqli_fetch_array($resultDatosEmpresa);
+    $rowDireccionEmpresaPrincipal= mysqli_fetch_array($resultDireccionEmpresaPrincipal);
+    $rowDireccionEmpresaDelegacion= mysqli_fetch_array($resultDireccionEmpresaDelegacion);
+    $rowDatosEmpresa= mysqli_fetch_array($resultDatosEmpresa);
 
-    if($result === FALSE){
-        die("Error en la consulta: ".mysqli_error($conexion));
-    }
-
-?>
+?> 
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -41,22 +48,49 @@
                     </td>
                     <td class="td_drch" rowspan ="2";>
                         <p style="color: gray;">Demoliciones y Gestión de Aminato, s.l.</p>
-                        <p>N.I.F.: B27861699</p>
-                        <p style="color: gray;">Oficina Central:</p>
-                        <p><?php 
-                                echo $row["calle\n"];
-                                echo $row["numero\n"];
-                                echo $row["piso\n"];
-                                echo $row["cp\n"];
-                                echo $row["ciudad\n"];
+                        <p><?php
+                                echo "N.I.F.: ";
+                                echo $rowDatosEmpresa["nif"];
                             ?>
                         </p>
-                        <p>Tel.: 986 289 776 · 629859946</p>
+                        <p style="color: gray;">Oficina Central:</p>
+                        <p><?php 
+                                echo utf8_encode($rowDireccionEmpresaPrincipal["calle"].", ");
+                                echo $rowDireccionEmpresaPrincipal["numero"].", ";
+                                echo $rowDireccionEmpresaPrincipal["piso"]."º, ";
+                                echo $rowDireccionEmpresaPrincipal["cp"].", ";
+                                echo $rowDireccionEmpresaPrincipal["ciudad"];
+                            ?>
+                        </p>
+                        <p><?php
+                                echo "Tel.:";
+                                echo $rowDatosEmpresa["num_telefono_1"]." · ";
+                                echo $rowDatosEmpresa["num_movil_1"];
+                            ?>
+                        </p>
                         <p style="color: gray;">Delegación Centro:</p>
-                        <p>Camino del Barco Viejo, 40</p>
-                        <p>28140 Fuente el Saz, Madrid</p>
-                        <p>Tel.: 915 135 643 · 647 802 225</p> 
-                        <p>administracion@gdatecnica.com</p>
+                        <p>
+                            <?php
+                                echo $rowDireccionEmpresaDelegacion["calle"].", ";
+                                echo $rowDireccionEmpresaDelegacion["numero"];
+                            ?>
+                        </p>
+                        <p>
+                            <?php
+                                echo $rowDireccionEmpresaDelegacion["cp"]." ";
+                                echo $rowDireccionEmpresaDelegacion["ciudad"].", Madrid";
+                            ?>
+                        </p>
+                        <p>
+                            <?php
+                                echo "Tel.:";
+                                echo $rowDatosEmpresa["num_telefono_1"]." · ";
+                                echo $rowDatosEmpresa["num_movil_1"];
+                            ?>
+                        </p> 
+                        <p><?php
+                                echo $rowDatosEmpresa["correo"];
+                            ?></p>
                     </td>
                 <tr>
                     <td class="td_izq">
