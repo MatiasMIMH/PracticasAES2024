@@ -232,22 +232,21 @@ table {
     position:absolute;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .imglogo{
     position: absolute;
-    margin-left: 35%;
+    margin-left: 32%;
     margin-top: 4%;
 }
 
-.textorera p{
-    height: 100%;
-    width: 100%;
+div.textorera {
+    margin-left: 5%;
     position: absolute;
-    margin-left: 38%;
-    margin-top: 10%;
-    color: black;
-    
+    color: rgb(105, 105, 105);
+    font-size: small;
 }
 
 .contacto{
@@ -259,9 +258,4 @@ table {
     color: white;
     font-size: 1.2rem;
     font-family:  sans-serif;
-}
-
-.contactos{
-    overflow-x: hidden;
-    overflow-y: hidden;
 }

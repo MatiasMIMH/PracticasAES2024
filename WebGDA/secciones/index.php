@@ -94,7 +94,7 @@
                     </td>
                 <tr>
                     <td class="td_izq">
-                        <p>Empresa Inscrita en el <b  style="color: gray;">RERA</b></p>
+                        <p>Empresa Inscrita en el <b  style="color: grey";>RERA</b></p>
                         <p>(Registro Empresas con Riesgo por Amianto)</p>
                         <p>con el nº 36/200</p>
                     </td>
