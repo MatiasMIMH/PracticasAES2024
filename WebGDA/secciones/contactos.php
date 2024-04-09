@@ -20,15 +20,14 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Contactos</title>
 </head>
-<body>
-
+<body class="contactos">
     <div class="fondopantalla" style="background-image: url('../imagenes/<?php echo $row["fondo"]?>')">
         <?php include("header.php")?>
         <div class="imglogo">
@@ -37,9 +36,7 @@
                 <p>Empresa inscrita en el <b style="color: rgba();">RERA</b><br> (Registro Empresas con Riesgo por Amianto)<br> con el nº 36/200</p>
             </div>
         </div>
-
         
-
         <div class="contacto">
             <h2>Solicite más informaci&oacute;n<br> llamando al 
                 <?php 
@@ -49,5 +46,6 @@
             </h2>
         </div>
     </div>
+    
 </body>
 </html>
