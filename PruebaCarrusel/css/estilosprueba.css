@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Tabac Sans";
+    src: url("font/TabacSansSemiBold.ttf");
+}
+
+body {
+    font-family: "Tabac Sans";
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/**--------HEADER---------------------------------------------------*/
+
+.header {
+    position: sticky;
+    top: 0;
+    height: 40px;
+    background-color: 
+
+rgba(220, 41, 41, 0.9);
+    padding: 6px;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul a 
+
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 
+
+0;
+}
+
+.menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    
+
+padding: 0;
+}
+
+.menu ul .li_inicio {
+    height: 100%;
+    margin: 3px;
+    
+
+padding: 15px;
+    margin-top: -1px;
+    bottom: 3px;
+}
+
+.li_inicio:hover {
+    background-color: rgba(228,122,124);
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+.menu ul ul li {
+    background-color: rgba(220, 41, 41, 0.9);
+    float: none;
+    width: 150px;
+}
+
+.menu ul ul li:hover {
+    background-color: rgba(228,122,124);
+}
+
+.menu ul ul a {
+    line-height: 120%;
+    padding: 5%;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+.btn_solicitar_presu {
+    font-family: "Tabac Sans";
+    padding: 5px 10px;
+    background: rgba(210, 36, 36, 0.9);
+    color: white;
+    border-radius: 2em;
+    border: none;
+    outline: 2px solid lightgray;
+    margin-left: 20%;
+    margin-top: 7px;
+}
+
+.btn_solicitar_presu:hover {
+    border-color: rgba(210, 36, 36, 0);
+    background: rgba(255, 255, 255, 0.3);
+    outline:rgba(211, 211, 211, 0);
+    cursor: pointer;
+}
+
+/**---------------------------------------------------------*/
+
+.contenedor {
+    width: 100%;
+}
+
+.cabecera {
+    height: 630px;
+    bottom: 0;
+    background-image: url("../imagenes/seccion3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.pie{
+    position:absolute;
+    width: 100%;
+    height: 382px;
+    top:300px;
+    bottom:0px;
+    background-color: rgba(210, 36, 36, 0.8);
+    border-color: white;
+    clip-path: polygon(53% 0, 100% 0, 100% 100%, -2% 100%);
+
+}
+
+.pieborde {
+    position:absolute;
+    width: 100%;
+    top:0px;
+    bottom:0;
+    background-color: white;
+    border: 2px, solid, white;
+    clip-path: polygon(50% 0, 100% 0, 100% 1%, 53.3% 1%, -1% 100%, -2% 100%);
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 15px;
+    margin-left: 50%;
+    font-size: 30px;
+}
+
+.articulo {
+    margin-top: 2%;
+}
+
+.titulo_cuerpo {
+    padding: 2px;
+    margin-right: 52%;
+    right: 0;
+    padding-left: 10%;
+    color: white;
+    background-color: rgba(210, 36, 36, 0.9);
+}
+
+.texto_cuerpo {
+    padding-left: 10%;
+}
+
+/** CARRUSEL DE IMAGENES-------------------------- */
+.slider{
+    float: right;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+    margin: 20px;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .slider, .slider ul, .slider img{
+        height: 100vh;
+    }
+}
+/** -------------------------------------------*/
