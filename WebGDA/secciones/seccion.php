@@ -58,37 +58,37 @@
     <h1>Identificación de amianto</h1>
         <div class="textos">
             <div class="texto">
-            <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir </p>
+                <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir </p>
+            </div>
+
+            <h2>¿Qué dice la legislacion sobre la identificación del amianto?</h2>
+
+            <div class="texto2">
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p><br>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+            </div>
+
+            <h2>¿Por qué hay que realizar una inspeccion de amianto?</h2>
             
-        </div>
-
-        <h2>¿Qué dice la legislacion sobre la identificación del amianto?</h2>
-        <div class="texto2">
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p><br>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-
-        </div>
-
-        <h2>¿Por qué hay que realizar una inspeccion de amianto?</h2>
-        <div class="texto3">
-            <p>Esto es una prueba del texto que se va a introducir</p><br>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-            <p>Esto es una prueba del texto que se va a introducir</p>
-        </div>
+            <div class="texto3">
+                <p>Esto es una prueba del texto que se va a introducir</p><br>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+                <p>Esto es una prueba del texto que se va a introducir</p>
+            </div>
         </div>
 </body>
 </html>

@@ -2,6 +2,9 @@
     font-family: "Tabac Sans";
     src: url("font/TabacSansSemiBold.ttf");
 }
+*{
+    position: sticky;
+}
 
 body{
     height: 100%;
@@ -77,8 +80,6 @@ body{
 .menu ul li:hover > ul {
     display: block;
 }
-
-
 
 /*----------------------------------------*/
 
@@ -217,7 +218,8 @@ table {
 }
 
 .td_izq {
-    width: 50%; padding-bottom: 20px;
+    width: 50%;
+    padding-bottom: 20px;
 }
 
 .td_drch {
@@ -236,18 +238,7 @@ table {
     color: white;
 }
 
-
 /*------------CONTACTO-------------*/
-
-.fondopantalla{
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
 
 .imglogo{
     position: absolute;
@@ -273,19 +264,18 @@ div.textorera {
     font-family:  sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-}
+/*slider de fotos y el texto*/
 
 .slider{
-    margin: auto;
+    box-sizing: border-box;
     transform: scale();
+    margin: auto;
     width: 60%;
     height: 600px;
     overflow: hidden;
 }
 .slider ul{
+    padding: 0;
     display: flex;
     animation: cambio 20s infinite alternate linear;
     width: 400%;
@@ -316,4 +306,8 @@ div.textorera {
     .slider, .slider ul, .slider img{
         height: 100vh;
     }
+}
+
+.textos{
+    margin: 20px;
 }
