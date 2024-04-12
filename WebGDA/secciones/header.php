@@ -22,6 +22,9 @@
                         <li><a href="seccion.php?id=4">Retirada y gestión de fibrocemento</a></li>
                         <li><a href="seccion.php?id=9">Asesoramiento ambiental</a></li>
                         <li><a href="seccion.php?id=10">Montaje de cubiertas metálicas</a></li>
+                        <li><a href="seccion.php?id=12">Limpieza técnica</a></li>
+                        <li><a href="seccion.php?id=13">Planes de mantenimiento</a></li>
+                        <li><a href="seccion.php?id=14">Mediciones según ISO 14644</a></li>
                     </ul>
                 </li>
                 <li class="li_inicio"><a href="contactos.php?id=11">Contacto</a></li>
