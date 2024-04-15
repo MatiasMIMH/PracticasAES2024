@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="prototipo.css">
-    <title>Prototipo</title>
-</head>
-    <body>
         <div class="fibrocemento">
+            <link rel="stylesheet" href="../prototitpo/prototipo.css">
+
             <img  class="imgFibrocemento" src="../imagenes/retiradaFibrocemento/imgPortada.jpg"> <!--Aqui la img principal-->
 
             <div class="textosFibrocemento">
@@ -19,55 +12,43 @@
                     expuestos, y otras colectivas que impidan la contaminación de terceras personas.</p>
                 </div>
                 <!--Juntar todas las imagenes aqui para que este todo mas organizado-->
-                <div class="fibrocementoSlider">
-                    <ul>
-                        <li>
-                            <img src="../imagenes/retiradaFibrocemento/bajantesEx.jpg">
-                        </li>
-                        <li>
-                            <img src="../imagenes/retiradaFibrocemento/bajantesInt.jpg">
-                        </li>
-                        <li>
-                            <img src="../imagenes/retiradaFibrocemento/colectores.jpg">
-                        </li>
-                        <li>
-                            <img src="../imagenes/retiradaFibrocemento/depositos.jpg">
-                        </li>
-                        <li>
-                            <img src="../imagenes/retiradaFibrocemento/cubiertas.jpg">
-                        </li>
-                    </ul>
+                <div class="imagenesFibrocemento">
+                    <img  class="imgFibrocemento1" src="../imagenes/retiradaFibrocemento/bajantesEx.jpg" width="280" height="270">
+                    <img  class="imgFibrocemento2" src="../imagenes/retiradaFibrocemento/bajantesInt.jpg" width="280" height="270">
+                    <img  class="imgFibrocemento3" src="../imagenes/retiradaFibrocemento/colectores.jpg" width="280" height="270">
+                    <img  class="imgFibrocemento4" src="../imagenes/retiradaFibrocemento/depositos.jpg" width="280" height="270">
+                    <img  class="imgFibrocemento5" src="../imagenes/retiradaFibrocemento/cubiertas.jpg" width="280" height="270">
                 </div>
                 
-
                 <h2>¿Quién puede retirar el fibrocemento?</h2>
                 <div class="textoFibrocemento2">
                     <p>La normativa legal es muy clara, únicamente pueden manipular material 
                         que contiene amianto las empresas que figuren en el Registro de Empresas
-                        con Riesgo de Amianto RERA.
+                        con Riesgo de Amianto <b style="color: rgba();">RERA</b>.
                     </p>
                 </div>
-
-                <img  class="imagen2Fibrocemento" src="../imagenes/retiradaFibrocemento/imgRetirada.jpg"> <!--Aqui la img de la izq-->
-
+                <img  class="imagenReraFibrocemento" src="../imagenes/rera.png">
                 
+                <img  class="imagen2Fibrocemento" src="../imagenes/retiradaFibrocemento/imgRetirada.jpg"> <!--Aqui la img de la izq-->
                 <div class="textoFibrocemento3">
+                    
                     <h2>¿Cuándo hay que retirar el fibrocemento?</h2>
                     <p>Es obligatorio proceder a la retirada del fibrocemento en las siguientes circunstancias:</p>
 
-                    <p>» Cuando ha llegado al final de su vida útil. Esta puede variar en función de las condiciones climatológicas que hubiese soportado, el grado de agresión sufrido por su uso en el caso de cubiertas con instalaciones, etc.</p>
+                    <p>» Cuando <b style="color: red;">ha llegado al final de su vida útil</b>. Esta puede variar en función de las condiciones climatológicas que hubiese soportado, el grado de agresión sufrido por su uso en el caso de cubiertas con instalaciones, etc.</p>
                         <p>Las NTP (Notas Técnicas de Prevención) del INSHT (Instituto Nacional de Seguridad e Higiene en el Trabajo) del año 2014, acota el ciclo de vida de los materiales con amianto entre los 30 y los 50 años.</p> 
                         <p>La Oficina Federal de Edificaciones de Suecia, establece en 35 años la vida útil de las cubiertas de fibrocemento.</p>
                         
-                    <p>» Cuando los materiales con fibrocemento se han deteriorado, es obligatorio su retirada.  Por ejemplo, tuberías con fugas, cubiertas con holguras, fisuras, goteras, etc.</p>
+                    <p>» Cuando los materiales con fibrocemento <b style="color: red;">se han deteriorado</b>, es obligatorio su retirada.  Por ejemplo, tuberías con fugas, cubiertas con holguras, fisuras, goteras, etc.</p>
                         
-                    <p>» Si se precisa realizar cualquier tipo de manipulación o intervención sobre la cubierta, es obligatorio su retirada, ya que el fibrocemento no permite actuar sobre el si no es para su retirada.</p>
+                    <p>» Si se <b style="color: red;">precisa realizar cualquier tipo de manipulación</b> o intervención sobre la cubierta, es obligatorio su retirada, ya que el fibrocemento no permite actuar sobre el si no es para su retirada.</p>
                 </div>
                 
                 <h1 class="tituloFinal">Especializados en la Retirada, Gestión y Sustitución de Fibrocemento</h1>
+                <div class="cuadroFinal">
+                    <p>Olvidese de preocupaciones, realizamos el trabajo de forma integral</p>
+                </div>
                 <img class="imgFinalFibrocemento" src="../imagenes/retiradaFibrocemento/imgFinal.jpg">
 
             </div>
         </div>    
-    </body>
-</html>

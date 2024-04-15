@@ -1,48 +1,11 @@
 .fibrocemento{
-    margin: 20px;
+    margin: 10%;
+    font-size: 20px;
 }
 
-.fibrocementoSlider{
-    box-sizing: border-box;
-    transform: scale();
-    position: sticky;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.fibrocementoSlider{
-    width: 40%;
-    height: 400px;
-    overflow: hidden;
-}
-.fibrocementoSlider ul{
-    display: flex;
-    animation: cambio 10s infinite alternate linear;
-    width: 400%;
-}
-.fibrocementoSlider li{
-    list-style: none;
-    padding: 4px;
-}
-.fibrocementoSlider img{
-    height: 100%;
-    float: right;
-}
-@keyframes cambio{
-    0%{margin-left: 0;}
-    20%{margin-left: 0;}
-    
-    25%{margin-left: -100%;}
-    45%{margin-left: -100%;}
-    
-    50%{margin-left: -200%;}
-    70%{margin-left: -200%;}
-    
-    75%{margin-left: -300%;}
-    100%{margin-left: -300%;}
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-    .slider, .slider ul, .slider img{
-        height: 100vh;
-    }
+.imagenesFibrocemento{
+    flex-direction: inherit;
+    text-align: center;
 }
 
 .textosFibrocemento{
@@ -58,29 +21,43 @@
     margin-top: 20px;
 }
 .textoFibrocemento2{
-    text-align: left; 
+    text-align: center; 
 }
 .imgFibrocemento{
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 .textoFibrocemento3{
     text-align: left;
     margin-left: 24vw;
+    margin-top: 160px;
 
 }
 .imagen2Fibrocemento{
     float: left;
     height: 30vw;
-    margin-top: 40px;
+    margin-top: 320px;
 }
 .imgFinalFibrocemento{
+    height: 100%;
+    width: 100%;
     margin-top: 20px;
-    height: 50vw;
-    width: 90vw;
 }
 .tituloFinal{
     margin-top: 12vw;
     text-align: center;
     font-family: 'Courier New', 'monospace';
+}
+.imagenReraFibrocemento{
+    margin-top: 40px;
+    background-color: red;
+    margin-left: 180px;
+}
+.cuadroFinal{
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 32px;
 }
