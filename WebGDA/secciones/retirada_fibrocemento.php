@@ -1,7 +1,7 @@
 <div class="fibrocemento">
     <link rel="stylesheet" href="../prototitpo/prototipo.css">
 
-    <img  class="imgFibrocemento" src="../imagenes/retiradaFibrocemento/imgPortada.jpg"> <!--Aqui la img principal-->
+    <!-- <img  class="imgFibrocemento" src="../imagenes/retiradaFibrocemento/imgPortada.jpg"> Aqui la img principal -->
 
     <div class="textosFibrocemento">
         <div class="textoFibrocemento1">
@@ -26,12 +26,11 @@
                 que contiene amianto las empresas que figuren en el Registro de Empresas
                 con Riesgo de Amianto <b style="color: rgba();">RERA</b>.
             </p>
+            <img  class="imagenReraFibrocemento" src="../imagenes/rera.png">
         </div>
-        <img  class="imagenReraFibrocemento" src="../imagenes/rera.png">
-                
-        <img  class="imagen2Fibrocemento" src="../imagenes/retiradaFibrocemento/imgRetirada.jpg"> <!--Aqui la img de la izq-->
-        <div class="textoFibrocemento3">
-                    
+        
+        <div class="retirarFibrocemento">
+                    <img  class="imagen2Fibrocemento" src="../imagenes/retiradaFibrocemento/imgRetirada.jpg"> <!--Aqui la img de la izq-->
             <h2>¿Cuándo hay que retirar el fibrocemento?</h2>
             <p>Es obligatorio proceder a la retirada del fibrocemento en las siguientes circunstancias:</p>
 
@@ -63,6 +62,9 @@
                 <p class="textoLista">Les entregamos <br>documento de identificación <br>del porte y certificado del <br>gestor final</p>
             </div>
         </div>
-        <img class="imgFinalFibrocemento" src="../imagenes/retiradaFibrocemento/imgFinal.jpg">
+        <div style="width: 100%; text-align: center;">
+            <img class="imgFinalFibrocemento" src="../imagenes/retiradaFibrocemento/imgFinal.jpg">
+        </div>
+        
     </div>
 </div>    

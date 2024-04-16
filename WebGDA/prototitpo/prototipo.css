@@ -1,5 +1,7 @@
 .fibrocemento{
     margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     font-size: 20px;
 }
 
@@ -9,7 +11,7 @@
 }
 
 .textosFibrocemento{
-    margin: 20px;
+    margin: 2%;
     text-align: left;
 }
 .textosFibrocemento h2{
@@ -18,7 +20,7 @@
 }
 
 .textoFibrocemento1{
-    margin-top: 20px;
+    margin-top: 2%;
 }
 .textoFibrocemento2{
     text-align: center; 
@@ -29,29 +31,27 @@
 }
 .textoFibrocemento3{
     text-align: left;
-    margin-left: 24vw;
-    margin-top: 160px;
-
+    margin-left: 30%;
+    margin-top: 10%;
 }
 .imagen2Fibrocemento{
     float: left;
-    height: 30vw;
-    margin-top: 320px;
+    height: 50%;
+    margin-top: 20%;
 }
 .imgFinalFibrocemento{
     height: 100%;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 .tituloFinal{
-    margin-top: 12vw;
+    margin-top: 16%;
     text-align: center;
     font-family: 'Courier New', 'monospace';
 }
 .imagenReraFibrocemento{
-    margin-top: 40px;
-    background-color: red;
-    margin-left: 180px;
+    margin-top: 2%;
+    margin-left: 17%;
 }
 .cuadroFinal{
     background-color: red;
@@ -61,3 +61,42 @@
     text-align: center;
     font-size: 32px;
 }
+hr{
+    height: 3px;
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.iconoUser{
+    height: 50px;
+    width: 50px;
+
+}
+.iconoPortap{
+    height: 50px;
+    width: 50px;
+}
+.iconoCasa{
+    height: 50px;
+    width: 50px;
+}
+.iconoCamion{
+    height: 50px;
+    width: 50px;
+}
+.iconoLista{
+    height: 50px;
+    width: 50px;
+}
+
+.textosCuadroFinal{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-left: 5%;
+    position: sticky;
+}
+
+.textosCuadroFinal p { display: inline-block; margin-inline: 2%;}
+
+.iconos img { display: inline-block; margin-inline: 4.7%;}
