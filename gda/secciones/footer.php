@@ -9,19 +9,19 @@
         <table class="tablafooter">
             <tr class="tablafooter_titulos">
                 <td>
-                    <h1>Sobre Nosotros</h1>
+                    <h3>Sobre Nosotros</h3>
                     <hr>
                 </td>
                 <td>
-                    <h1>Contacto</h1>
+                    <h3>Contacto</h3>
                     <hr>
                 </td>
                 <td>
-                    <h1>Dirección</h1>
+                    <h3>Dirección</h3>
                     <hr>
                 </td>
                 <td>
-                    <h1>Legal</h1>
+                    <h3>Legal</h3>
                     <hr>
                 </td>
             </tr>

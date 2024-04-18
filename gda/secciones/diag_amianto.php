@@ -1,4 +1,3 @@
-
 <div class="introduccion">
     <img src="../imagenes/amianto1.jpg" alt="Amianto">
     <div class="introduccion_texto">

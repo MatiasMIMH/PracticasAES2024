@@ -2,6 +2,11 @@
     font-family: "Tabac Sans";
     src: url("font/TabacSansSemiBold.ttf");
 }
+
+* {
+    font-family:"Tabac Sans";
+}
+
 html {
     overflow-x: hidden;
     width: 100%;
@@ -12,11 +17,10 @@ body{
     width: 100%;
     margin:0;
     padding:0;
-    font-family:"Tabac Sans";
     overflow-y: hidden;
 }
 
-/*   HEADER   */
+/*------------------------------------------HEADER----------------------------------------------------*/
 
 .header {
     position: fixed;
@@ -106,7 +110,74 @@ body{
     cursor: pointer;
 } */
 
-/*----------------------------------------*/
+/*------------------------------------------INDEX----------------------------------------------------*/
+
+.fondo_index {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    padding-top: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.cabecera {
+    height: auto;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.8);
+    top: 120px;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    padding-bottom: 10px
+}
+
+.cabecera p{
+    color: darkgray;
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20%;
+}
+
+.barra_cabecera {
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 6px;
+    background-color: rgb(220, 41, 41, 0.8);
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+.td_izq {
+    width: 50%; padding-bottom: 20px;
+}
+
+.td_drch {
+    text-align: right;
+    padding-right: 10%;
+}
+
+.titulo_index {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 400px;
+    font-size: large;
+    line-height: 300%;
+    margin-left: 27%;
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+
+/*----------------------------------------SECCION----------------------------------------------------*/
 
 .contenedor {
     position: absolute;
@@ -156,12 +227,11 @@ h1.seccion {
     top:0px;
     bottom:0;
     background-color: white;
-    border: 2px, solid, white;
+    border: 2px solid white;
     clip-path: polygon(22% 72%, 54% 0, 100% 0, 100% 1%, 55% 1%, 22% 75%, 0 30%, 0 29%);
 }
 
 .fondo_contenido {
-    font-family: "Tabac Sans";
     height: 100%;
     margin-left: 48%;
     color: white;
@@ -229,7 +299,6 @@ h1.seccion {
 
 .lista {
     font-size: 1.5rem;
-    font-family: "Tabac Sans";
     text-align: right;
     position: absolute;
     margin-right: 20%;
@@ -239,74 +308,9 @@ h1.seccion {
 }
 
 
-/*      INDEX      */
-
-.fondo_index {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    padding-top: 5%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-}
-
-.cabecera {
-    height: 220px;
-    position: absolute;
-    background-color:rgba(255, 255, 255, 0.7);
-    top: 120px;
-    left: 0;
-    right: 0;
-    z-index: 50;
-}
-
-.cabecera p{
-    color: darkgray;
-    font-size: 0.7rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 20%;
-}
-
-.barra_cabecera {
-    margin-top: 2%;
-    margin-left: 10%;
-    width: 80%;
-    height: 6px;
-    background-color: rgb(220, 41, 41, 0.8);
-}
-
-table {
-    width: 100%;
-    height: 100%;
-}
-
-.td_izq {
-    width: 50%; padding-bottom: 20px;
-}
-
-.td_drch {
-    text-align: right;
-    padding-right: 10%;
-}
-
-.titulo_index {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 400px;
-    font-size: large;
-    line-height: 300%;
-    margin-left: 27%;
-    text-align: center;
-    width: 50%;
-    color: white;
-}
 
 
-
-/*------------CONTACTO-------------*/
+/*----------------------------------------CONTACTO-------------------------------------------------*/
 
 .fondopantalla{
     background-repeat: no-repeat;
@@ -339,10 +343,9 @@ div.textorera {
     text-align: center;
     color: white;
     font-size: 1.2rem;
-    font-family:  sans-serif;
 }
 
-/* -----------AMIANTO ------------ **/
+/*--------------------------IDENTIFICACIÓN----AMIANTO----------------------------------------*/
 
 .amianto_section {
     padding-left: 10%;
@@ -460,24 +463,27 @@ div.textorera {
     width: 60%;
 }
 
-/* ----------------------------- **/
-
-
-/*-----------FOOTER--------------**/
+/*----------------------------------------FOOTER-----------------------------------------------*/
 
 .footer {
     width: 100%;
-    height: 300px;
+    margin: 0 auto;
     background-color: rgba(223,62,62,1);
     bottom: 0;
     left: 0;
     color: white;
     /*----------------------*/
-    z-index: 100;
-    overflow-x: hidden;
     position: relative;
 }
 
+.footer p > a{
+    color:white;
+    text-decoration: none;
+}
+.footer p > a:hover{
+    color:#000;
+    text-decoration: none;
+}
 .footer_index {
     width: 100%;
     height: 300px;
@@ -485,7 +491,6 @@ div.textorera {
     margin-top: 0px;
     left: 0;
     color: white;
-    /*----------------------*/
     position: absolute;
 }
 
@@ -583,7 +588,6 @@ div.textorera {
 .tituloFinal{
     margin-top: 16%;
     text-align: center;
-    font-family: 'Courier New', 'monospace';
 }
 .cuadroFinal{
     background-color: red;
@@ -596,8 +600,6 @@ div.textorera {
 hr{
     height: 3px;
     background-color: white;
-    margin-right: 10%;
-    margin-left: 10%;
 }
 
 .iconoUser{

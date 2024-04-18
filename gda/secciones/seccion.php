@@ -1,7 +1,6 @@
 <?php
     include("conexion.php");
     $conexion = conexion();
-
     $id = $_REQUEST["id"];
 
     $query = "SELECT * FROM secciones WHERE id = $id";
@@ -24,7 +23,7 @@
         <div class="fondo" style="background-image: url('../imagenes/<?php echo $row["fondo"]?>')">
 
             <div class="titulo">
-                <h1 class="seccion">  <?php echo utf8_encode($row["titulo"])?></h1>
+                <h1 class="seccion">  <?php echo $row["titulo"]?></h1>
             </div>
             <?php
                 if ($id == 12 || $id == 13 || $id == 14) {
@@ -36,12 +35,12 @@
                 <div class="pieborde"></div>
                 <div class="fondo_contenido">
                     <div class="cabecera_logo">
-                        <img src="../imagenes/<?php echo $row["logo"]?>" alt="Logo">
+                        <img src="../imagenes/<?php echo $row["logo"]?>" alt="Logo" width="446">
                         <p>Empresa inscrita en el RERA con el nº 36/200</p>
                     </div>
                     <hr style="width: 60%;">
                     <div class="lista">
-                        <?php echo utf8_encode($row["contenido"])?>
+                        <?php echo $row["contenido"]?>
                     </div>
                     <div class="div_img_rera">
                         <img src="../imagenes/<?php echo $row["logo_certificado"]?>" alt="Logo Certificado">
